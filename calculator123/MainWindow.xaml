@@ -1,0 +1,16 @@
+﻿<Window x:Class="calculator123.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculator123"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Запуск калькулятора" HorizontalAlignment="Left" Margin="282,97,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Типо выключение калькулятора" HorizontalAlignment="Left" Margin="465,97,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Настройки" HorizontalAlignment="Left" Margin="282,144,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click_2"/>
+        <Button Content="Диспетчер задач" HorizontalAlignment="Left" Margin="282,184,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>
